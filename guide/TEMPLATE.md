@@ -38,6 +38,20 @@ template
     └── template.yml
 ```
 
+## Resources
+
+Any resources should live under a ```function``` directory:
+
+Example:
+```
+template
+├── csharp
+   ├── function/
+   |    ├── Func.cs
+   ├── Dockerfile
+   └── template.yml
+```
+
 ## Download external repository
 
 In order to build functions using 3rd party templates, you need to add 3rd templates before the build step, with the following command:
